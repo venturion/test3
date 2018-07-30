@@ -7,7 +7,7 @@ module.exports = function (moduleOptions) {
 
   vm.addPlugin({
     src: path.resolve(__dirname, 'plugin.js'),
-    fileName: 'modules/test2/plugin.js',
+    fileName: 'modules/test3/plugin.js',
     options: {
       // Nuxt will replace `options.ua` with `123` when copying plugin to project
       ua: 123,
@@ -19,13 +19,13 @@ module.exports = function (moduleOptions) {
   // Routes
   vm.addTemplate({
     src: path.resolve(__dirname, './routes/index.js'),
-    fileName: 'modules/test2/routes/index.js',
+    fileName: 'modules/test3/routes/index.js',
     options
   })
 
   vm.addTemplate({
-    src: path.resolve(__dirname, './components/Test2Component.vue'),
-    fileName: 'modules/test2/components/Test2Component.vue',
+    src: path.resolve(__dirname, './components/test3Component.vue'),
+    fileName: 'modules/test3/components/test3Component.vue',
     options
   })
 

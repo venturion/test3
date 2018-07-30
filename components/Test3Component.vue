@@ -2,7 +2,7 @@
   <section class="content">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="title">Test 2 component</h1>
+        <h1 class="title">Test 3 component</h1>
       </div>
     </div>
   </section>
@@ -10,12 +10,12 @@
 
 <script>
   export default {
-    name: 'Test2Component'
+    name: 'Test3Component'
   }
 </script>
 
 <style lang="scss" scoped>
   h1 {
-    color: green;
+    color: cyan;
   }
 </style>

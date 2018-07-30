@@ -1,9 +1,9 @@
-import Test2Component from '../components/Test2Component'
+import Test3Component from '../components/Test3Component'
 
 const routes = [{
-  name: 'test2',
-  path: '/test2',
-  component: Test2Component
+  name: 'test3',
+  path: '/test3',
+  component: Test3Component
 }]
 
 export default routes
