@@ -1,5 +1,5 @@
 const path = require('path')
-
+//apenas testando
 module.exports = function (moduleOptions) {
   const options = moduleOptions
 
